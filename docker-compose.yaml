@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: nargyanti/docker-react:latest
+    image: nargyanti/hello-react:latest
     container_name: web
     restart: unless-stopped
     ports:
